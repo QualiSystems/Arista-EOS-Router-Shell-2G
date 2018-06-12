@@ -24,7 +24,7 @@ from cloudshell.networking.arista.runners.arista_firmware_runner import \
 
 class AristaEosRouterShell2GDriver(ResourceDriverInterface, NetworkingResourceDriverInterface, GlobalLock):
     SUPPORTED_OS = ["EOS"]
-    SHELL_NAME = "AristaEosRouterShell2GDriver"
+    SHELL_NAME = "AristaEosRouterShell2G"
 
     def __init__(self):
         super(AristaEosRouterShell2GDriver, self).__init__()
